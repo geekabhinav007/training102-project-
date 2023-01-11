@@ -20,7 +20,7 @@ class Window:
         # Initialisation Of window
         self.window = Tk()
         self.window.geometry("1200x700+200+150")
-        self.window.wm_title("Untitled")
+        self.window.wm_title("Notepad by Abhinav")
 
         # Initialisation of Text Widget
         self.TextBox = Text(self.window, highlightthickness=0, font=("Helvetica", 14))
